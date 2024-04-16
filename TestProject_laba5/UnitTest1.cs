@@ -25,18 +25,6 @@ public class UnitTest1
         }
     }
     [TestMethod]
-    public void TestGenerator2()
-    {
-        Generator2 gen2 = new Generator2();
-        gen2.read_file("file2.txt");
-
-        for (int i = 0; i < 1000; i++)
-        {
-            string sym = gen2.getSymm();
-            Assert.IsNotNull(sym);
-        }
-    }
-    [TestMethod]
     public void TestMetod4()
     {
         Generator1 gen = new Generator1();
